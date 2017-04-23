@@ -1,0 +1,22 @@
+{
+  "name": "blocking-await",
+  "version": "1.0.0",
+  "description": "Synchronously wait for a Promise to resolve",
+  "main": "index.js",
+  "repository": "https://github.com/wtfaremyinitials/blocking-await.git",
+  "author": "Will Franzen",
+  "license": "MIT",
+  "dependencies": {
+    "deasync": "^0.1.9"
+  },
+  "engines": {
+    "node": ">=4.8"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "awaiting": "^2.2.0"
+  },
+  "scripts": {
+    "test": "ava"
+  }
+}
