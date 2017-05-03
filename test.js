@@ -9,7 +9,9 @@ test('promise resolution', t => {
 })
 
 test('promise rejection', async t => {
-    var p = delay(10).then(function() { throw new Error('Failure') })
+    var p = delay(10).then(function() {
+        throw new Error('Failure')
+    })
     t.throws(() => {
         wait(p)
     })

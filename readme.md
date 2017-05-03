@@ -4,6 +4,7 @@ blocking-await
 ![](https://img.shields.io/npm/dm/blocking-await.svg)
 ![](https://img.shields.io/npm/v/blocking-await.svg)
 ![](https://img.shields.io/npm/l/blocking-await.svg)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 > Synchronously wait for a Promise to resolve
 
