@@ -19,6 +19,6 @@
   },
   "scripts": {
     "test": "ava",
-    "fmt": "prettier --write --single-quote --no-semi --tab-width 4 --trailing-comma all '*.js'"
+    "fmt": "prettier --write --single-quote --no-semi --tab-width 4 --trailing-comma es5 '*.js'"
   }
 }
